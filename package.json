@@ -1,0 +1,30 @@
+{
+  "name": "trezapalooza-discord-text-client",
+  "version": "1.0.0",
+  "description": "A Text Client directly handling rooms in Discord, as threads",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "archipelago.js": "^2.0.4",
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.16.3",
+    "utf-8-validate": "^6.0.5",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.20.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trezc0/trezapalooza-discord-text-client.git"
+  },
+  "author": "TreZc0_",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trezc0/trezapalooza-discord-text-client/issues"
+  },
+  "homepage": "https://github.com/trezc0/trezapalooza-discord-text-client#readme"
+}
